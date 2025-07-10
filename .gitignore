@@ -1,2 +1,20 @@
-**/.env
-**/node_modules
+# Ignore all node_modules folders
+user/node_modules/
+ride/node_modules/
+captain/node_modules/
+gateway/node_modules/
+
+# Ignore all .env files
+user/.env
+ride/.env
+captain/.env
+gateway/.env
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore editor-specific files
+.vscode/
+.DS_Store
+Thumbs.db
